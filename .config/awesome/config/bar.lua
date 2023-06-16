@@ -201,7 +201,7 @@ awful.screen.connect_for_each_screen(function(s)
 
     -- Clock
     myclock = awful.widget.textclock(
-        '<span font="Sarasa Mono K Bold 12"> %H:%M </span>', 5
+        '<span font="Sarasa Mono K Bold 12">%a %b %d, %H:%M </span>', 5
     )
 
     -- Create the top bar 
